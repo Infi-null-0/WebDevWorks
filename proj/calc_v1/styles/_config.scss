@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Pixel";
+    src: url("../fonts/8_bit_pusab/8-bit-pusab.ttf") format("truetype");
+}
+// FONT
+$font-pixel: "Pixel";
+// font - modifiables
+$font-btn: $font-pixel;
+
+// BG
+$bg-opacity : 0.3;
+$card-opacity : 0.6;
+
+// THEMES
+//? theme 1
+$bg-color: #1f2020;
+$text-color: #f1f1f1;
+// $calc-clr: lighten($bg-color, 10%);
+// $calc-inner-clr: $bg-color;
+// $calc-shadow-clr: darken($calc-clr, 15%);
+// $btn-clr-num: #f1f1f1; //numbers
+// $btn-clr-ops: #397bca; //operators
+// $btn-clr-eql: #75aa41; // equal to
+// $btn-clr-clr: #eb4c37; // ac
+// $btn-clr-del: #8592bd; // backspace
+
+// //? theme 2
+$calc-clr: lighten($bg-color, 5%);
+$calc-inner-clr: lighten($bg-color, 0%);
+$calc-shadow-clr: darken($calc-clr, 5%);
+$btn-clr-num: #f1f1f1; //numbers
+$btn-clr-ops: #5ae0f9; //operators
+$btn-clr-eql: #5ae0f9; // equal to
+$btn-clr-clr: #fe316a; // ac
+$btn-clr-del: #8592bd; // backspace
